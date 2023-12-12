@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    height: 74px;
+    margin-top: 25px;
+    font-family: var(--font1);
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+.nav-left{
+    font-size: 20px;
+    display: flex;
+}
+.nav-left span{
+    margin: 0 20px;
+    font-family: var(--font1);
+    font-size: 35px;
+    font-weight:bolder;
+}
+.nav-left ul{
+    margin: 0 134px;
+    display: flex;
+    align-items: center;
+    /* font-family: var(--font2); */
+    font-weight: 1500;
+    font-size: 23px;
+}
+.nav-left ul li{
+    list-style: none;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.nav-left ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight:900;
+}
+.nav-left ul li a:hover{
+    color: var(--main-bg-color);
+}
+.nav-left span img{
+    height: 82px;
+    /* cursor: pointer; */
+}
+.content-left{
+    font-family: var(--font1);
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.content-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-right img{
+    height: 355px;
+    border: 2px solid black;
+    border-radius: 300px;
+}
+.content{
+    height: 100%;
+    display: flex;
+    height: 390px;
+    background-color: rgb(235, 153, 153);
+    margin-top: 32px;
+    border-radius: 25px;
+    padding: 15px;
+}
+.home-articles{
+    background-color: rgb(237, 235, 240);
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+}
+.year-box{
+    position: absolute;
+    /* background-color:rebeccapurple; */
+    height: 90px;
+    width: 80px;
+    bottom: 1490px;
+    right: 70px;
+    font-size: 20px;
+}
+.year-box input{
+    cursor: pointer;
+}
+.home-article{
+    height: 250px;
+    display: flex;
+    margin: 50px 0;
+    /* padding: 30px; */
+    /* background-color:aqua; */
+}
+.home-article-content{
+    margin: 50px 0;
+}
+.home-article img{
+    height: 200px;
+    margin: 30px;
+
+}
+.footer{
+    height: 50px;
+    background-color: var(--main-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.font1{
+    font-family: var(--font1);
+}

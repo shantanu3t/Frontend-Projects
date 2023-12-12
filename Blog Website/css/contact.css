@@ -1,0 +1,30 @@
+.content {
+    height: 95px;
+    display: flex;
+    flex-direction: row;
+    height: 630px;
+    background-color: rgb(241, 211, 211);
+    margin: 32px;
+    border-radius: 25px;
+    padding: 35px;
+}
+
+.content h2 {
+    padding: 23px;
+    margin-left: 55px;
+}
+
+.contact-form {
+    margin: 75px;
+}
+
+.form-box {
+    padding: 6px;
+}
+.form-box input{
+    width: 347px;
+}
+.form-box button {
+    position: relative;
+    left: 120px;
+}
